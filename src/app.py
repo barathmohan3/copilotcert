@@ -21,6 +21,62 @@ app.mount("/static", StaticFiles(directory=os.path.join(Path(__file__).parent,
 
 # In-memory activity database
 activities = {
+    {
+        "Chess Club": {
+            "description": "Learn strategies and compete in chess tournaments",
+            "schedule": "Fridays, 3:30 PM - 5:00 PM",
+            "max_participants": 12,
+            "participants": ["michael@mergington.edu", "daniel@mergington.edu"]
+        },
+        "Programming Class": {
+            "description": "Learn programming fundamentals and build software projects",
+            "schedule": "Tuesdays and Thursdays, 3:30 PM - 4:30 PM",
+            "max_participants": 20,
+            "participants": ["emma@mergington.edu", "sophia@mergington.edu"]
+        },
+        "Gym Class": {
+            "description": "Physical education and sports activities",
+            "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
+            "max_participants": 30,
+            "participants": ["john@mergington.edu", "olivia@mergington.edu"]
+        },
+        "Basketball Team": {
+            "description": "Competitive basketball team and practice",
+            "schedule": "Mondays and Thursdays, 4:00 PM - 5:30 PM",
+            "max_participants": 15,
+            "participants": []
+        },
+        "Tennis Club": {
+            "description": "Tennis lessons and friendly matches",
+            "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
+            "max_participants": 10,
+            "participants": []
+        },
+        "Drama Club": {
+            "description": "Theater performance and script writing",
+            "schedule": "Tuesdays, 4:00 PM - 5:30 PM",
+            "max_participants": 25,
+            "participants": []
+        },
+        "Visual Arts": {
+            "description": "Painting, drawing, and sculpture techniques",
+            "schedule": "Thursdays, 3:30 PM - 5:00 PM",
+            "max_participants": 18,
+            "participants": []
+        },
+        "Debate Team": {
+            "description": "Competitive debate and public speaking",
+            "schedule": "Wednesdays and Fridays, 4:00 PM - 5:00 PM",
+            "max_participants": 12,
+            "participants": []
+        },
+        "Science Club": {
+            "description": "Explore STEM topics and conduct experiments",
+            "schedule": "Mondays, 3:30 PM - 4:30 PM",
+            "max_participants": 20,
+            "participants": []
+        }
+    }
     "Chess Club": {
         "description": "Learn strategies and compete in chess tournaments",
         "schedule": "Fridays, 3:30 PM - 5:00 PM",
